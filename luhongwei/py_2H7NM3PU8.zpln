@@ -141,12 +141,52 @@
         "params": {},
         "forms": {}
       },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[master 0bdd318] third commit\n 1 file changed, 136 insertions(+), 6 deletions(-)\nwarning: push.default is unset; its implicit value is changing in\nGit 2.0 from \u0027matching\u0027 to \u0027simple\u0027. To squelch this message\nand maintain the current behavior after the default changes, use:\n\n  git config --global push.default matching\n\nTo squelch this message and adopt the new behavior now, use:\n\n  git config --global push.default simple\n\nSee \u0027git help config\u0027 and search for \u0027push.default\u0027 for further information.\n(the \u0027simple\u0027 mode was introduced in Git 1.7.11. Use the similar mode\n\u0027current\u0027 instead of \u0027simple\u0027 if you sometimes use older versions of Git)\n\nTo git@github.com:HwiLu/z-note.git\n   fa780dd..0bdd318  master -\u003e master\n"
+          }
+        ]
+      },
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
       "jobName": "paragraph_1658385063680_1818519271",
       "id": "paragraph_1658385063680_1818519271",
       "dateCreated": "2022-07-21 14:31:03.680",
+      "dateStarted": "2022-07-21 14:32:19.555",
+      "dateFinished": "2022-07-21 14:33:27.191",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit add -A\ngit commit -m \"fourth commit\"\ngit push",
+      "user": "admin",
+      "dateUpdated": "2022-07-21 14:33:53.535",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658385139554_1827315937",
+      "id": "paragraph_1658385139554_1827315937",
+      "dateCreated": "2022-07-21 14:32:19.554",
       "status": "READY"
     }
   ],
