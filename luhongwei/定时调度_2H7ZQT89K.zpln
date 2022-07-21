@@ -3,7 +3,7 @@
     {
       "text": "%sh\n# 定时commit 和 push\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit add -A \ngit commit -m \"定时自动提交\"\ngit push",
       "user": "admin",
-      "dateUpdated": "2022-07-21 15:10:55.114",
+      "dateUpdated": "2022-07-21 15:21:31.108",
       "progress": 0,
       "config": {
         "editorSetting": {
@@ -22,11 +22,15 @@
         "forms": {}
       },
       "results": {
-        "code": "SUCCESS",
+        "code": "INCOMPLETE",
         "msg": [
           {
             "type": "TEXT",
-            "data": "error: pathspec \u0027\"\\345\\256\\232\\346\\227\\266\\350\\207\\252\\345\\212\\250\\346\\217\\220\\344\\272\\244\"\u0027 did not match any file(s) known to git.\nwarning: push.default is unset; its implicit value is changing in\nGit 2.0 from \u0027matching\u0027 to \u0027simple\u0027. To squelch this message\nand maintain the current behavior after the default changes, use:\n\n  git config --global push.default matching\n\nTo squelch this message and adopt the new behavior now, use:\n\n  git config --global push.default simple\n\nSee \u0027git help config\u0027 and search for \u0027push.default\u0027 for further information.\n(the \u0027simple\u0027 mode was introduced in Git 1.7.11. Use the similar mode\n\u0027current\u0027 instead of \u0027simple\u0027 if you sometimes use older versions of Git)\n\nEverything up-to-date\n"
+            "data": "[master 0d741f9] 定时自动提交\n 1 file changed, 86 insertions(+)\n create mode 100644 \"luhongwei/\\345\\256\\232\\346\\227\\266\\350\\260\\203\\345\\272\\246_2H7ZQT89K.zpln\"\nwarning: push.default is unset; its implicit value is changing in\nGit 2.0 from \u0027matching\u0027 to \u0027simple\u0027. To squelch this message\nand maintain the current behavior after the default changes, use:\n\n  git config --global push.default matching\n\nTo squelch this message and adopt the new behavior now, use:\n\n  git config --global push.default simple\n\nSee \u0027git help config\u0027 and search for \u0027push.default\u0027 for further information.\n(the \u0027simple\u0027 mode was introduced in Git 1.7.11. Use the similar mode\n\u0027current\u0027 instead of \u0027simple\u0027 if you sometimes use older versions of Git)\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "Paragraph received a SIGTERM\nExitValue: 143"
           }
         ]
       },
@@ -36,23 +40,34 @@
       "jobName": "paragraph_1658386730718_1877249473",
       "id": "paragraph_1658386730718_1877249473",
       "dateCreated": "2022-07-21 14:58:50.718",
-      "dateStarted": "2022-07-21 15:06:00.003",
-      "dateFinished": "2022-07-21 15:06:04.922",
-      "status": "FINISHED"
+      "dateStarted": "2022-07-21 15:10:55.116",
+      "dateFinished": "2022-07-21 15:19:08.025",
+      "status": "ABORT"
     },
     {
-      "text": "%sh\n",
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\nls -a",
       "user": "admin",
-      "dateUpdated": "2022-07-21 15:04:30.553",
+      "dateUpdated": "2022-07-21 15:17:16.341",
       "progress": 0,
-      "config": {},
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true,
+        "editorSetting": {}
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "results": {
         "code": "SUCCESS",
-        "msg": []
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": ".\n..\nFlink Tutorial\n.git\nluhongwei\nluhongwei_2H75BFMDH.zpln\nluhongwei_2HAXZMYQQ.zpln\nMiscellaneous Tutorial\nPython Tutorial\nREADME.md\nR Tutorial\nSpark Tutorial\n"
+          }
+        ]
       },
       "apps": [],
       "runtimeInfos": {},
@@ -60,9 +75,27 @@
       "jobName": "paragraph_1658387070553_592173185",
       "id": "paragraph_1658387070553_592173185",
       "dateCreated": "2022-07-21 15:04:30.553",
-      "dateStarted": "2022-07-21 15:06:05.007",
-      "dateFinished": "2022-07-21 15:06:05.014",
+      "dateStarted": "2022-07-21 15:17:16.342",
+      "dateFinished": "2022-07-21 15:17:16.374",
       "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n",
+      "user": "admin",
+      "dateUpdated": "2022-07-21 15:17:16.341",
+      "progress": 0,
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658387836341_1864410315",
+      "id": "paragraph_1658387836341_1864410315",
+      "dateCreated": "2022-07-21 15:17:16.341",
+      "status": "READY"
     }
   ],
   "name": "定时调度",
