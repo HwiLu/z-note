@@ -1,16 +1,138 @@
 {
   "paragraphs": [
     {
-      "text": "##带回家按时\n",
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit log",
       "user": "admin",
-      "dateUpdated": "2022-07-15 17:01:46.157",
+      "dateUpdated": "2022-07-20 10:17:23.529",
       "progress": 0,
       "config": {
         "editorSetting": {
-          "editOnDblClick": false
+          "editOnDblClick": false,
+          "language": "sh",
+          "completionSupport": false
         },
         "colWidth": 12.0,
-        "editorMode": "ace/mode/undefined",
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "commit fa780dd68adf63a36e94d8f8ece6a4ad2ee9aa71\nAuthor: luhongwei \u003cluhongwei@idea.edu.cn\u003e\nDate:   Fri Jul 15 17:11:28 2022 +0800\n\n    all\n\ncommit 8872ff1436064f0ae62c1456d5e14ecafc41a724\nMerge: 8759b17 706ba7c\nAuthor: luhongwei \u003cluhongwei@idea.edu.cn\u003e\nDate:   Fri Jul 15 17:06:46 2022 +0800\n\n    Merge branch \u0027master\u0027 of github.com:HwiLu/z-note\n\ncommit 706ba7cd718ba3c8e59b5c31c643c71719bd3a44\nAuthor: HwiLu \u003c2418979865@qq.com\u003e\nDate:   Fri Jul 15 17:05:53 2022 +0800\n\n    Create README.md\n\ncommit 8759b17ece1cdacabdc74c85fd54da0417a63532\nAuthor: luhongwei \u003cluhongwei@idea.edu.cn\u003e\nDate:   Fri Jul 15 17:02:07 2022 +0800\n\n    second commit\n\ncommit caa5f1ece6827177d094d63367b5c4d263e710da\nAuthor: luhongwei \u003cluhongwei@idea.edu.cn\u003e\nDate:   Fri Jul 15 16:58:44 2022 +0800\n\n    first commit\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1657875699282_1757873668",
+      "id": "paragraph_1657875699282_1757873668",
+      "dateCreated": "2022-07-15 17:01:39.282",
+      "dateStarted": "2022-07-20 10:39:00.003",
+      "dateFinished": "2022-07-20 10:39:01.989",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit status",
+      "user": "admin",
+      "dateUpdated": "2022-07-20 10:18:43.511",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9.0,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "# On branch master\n# Changes not staged for commit:\n#   (use \"git add \u003cfile\u003e...\" to update what will be committed)\n#   (use \"git checkout -- \u003cfile\u003e...\" to discard changes in working directory)\n#\n#\tmodified:   luhongwei/py_2H7NM3PU8.zpln\n#\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658283221942_211569058",
+      "id": "paragraph_1658283221942_211569058",
+      "dateCreated": "2022-07-20 10:13:41.942",
+      "dateStarted": "2022-07-20 10:39:02.005",
+      "dateFinished": "2022-07-20 10:39:02.014",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit status",
+      "user": "admin",
+      "dateUpdated": "2022-07-21 14:31:27.600",
+      "progress": 0,
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "# On branch master\n# Changes not staged for commit:\n#   (use \"git add \u003cfile\u003e...\" to update what will be committed)\n#   (use \"git checkout -- \u003cfile\u003e...\" to discard changes in working directory)\n#\n#\tmodified:   luhongwei/py_2H7NM3PU8.zpln\n#\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1658283210313_1279927388",
+      "id": "paragraph_1658283210313_1279927388",
+      "dateCreated": "2022-07-20 10:13:30.313",
+      "dateStarted": "2022-07-21 14:31:27.601",
+      "dateFinished": "2022-07-21 14:31:29.608",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /opt/zeppelin-0.10.1-bin-all/zn/z-note\ngit add -A\ngit commit -m \"third commit\"\ngit push",
+      "user": "admin",
+      "dateUpdated": "2022-07-21 14:32:19.553",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh",
+          "completionSupport": false
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sh",
         "fontSize": 9.0,
         "results": {},
         "enabled": true
@@ -22,9 +144,9 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1657875699282_1757873668",
-      "id": "paragraph_1657875699282_1757873668",
-      "dateCreated": "2022-07-15 17:01:39.282",
+      "jobName": "paragraph_1658385063680_1818519271",
+      "id": "paragraph_1658385063680_1818519271",
+      "dateCreated": "2022-07-21 14:31:03.680",
       "status": "READY"
     }
   ],
@@ -36,7 +158,15 @@
   "noteForms": {},
   "angularObjects": {},
   "config": {
-    "isZeppelinNotebookCronEnable": false
+    "isZeppelinNotebookCronEnable": true,
+    "looknfeel": "default",
+    "personalizedMode": "false",
+    "cronExecutingUser": "",
+    "cronExecutingRoles": "",
+    "cron": ""
   },
-  "info": {}
+  "info": {
+    "inIsolatedMode": false,
+    "isRunning": false
+  }
 }
